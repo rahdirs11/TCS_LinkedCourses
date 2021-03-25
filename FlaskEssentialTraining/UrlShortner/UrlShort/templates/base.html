@@ -1,0 +1,5 @@
+{% block title %}{BASE}{% endblock %}
+<h1>This is base</h1>
+{% for m in get_flashed_messages() %}
+<h2>{{m}}</m>
+    {% endfor %} {% block main %} {% endblock %}
